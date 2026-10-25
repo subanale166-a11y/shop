@@ -1,0 +1,78 @@
+# Buy shop (paid with money). Prices are PER ITEM.
+# Add or remove items freely. Categories show in the main /shop menu at the slot you set.
+title: "&8Shop"
+
+categories:
+  crystal-pvp:
+    name: "&bCrystal PvP"
+    icon: END_CRYSTAL
+    slot: 10
+    items:
+      END_CRYSTAL: 250
+      OBSIDIAN: 150
+      RESPAWN_ANCHOR: 1500
+      GLOWSTONE: 100
+      TOTEM_OF_UNDYING: 5000
+      ENDER_PEARL: 100
+      EXPERIENCE_BOTTLE: 60
+      FIREWORK_ROCKET: 30
+      SHIELD: 400
+      ENCHANTED_GOLDEN_APPLE: 4000
+
+  food:
+    name: "&6Food"
+    icon: COOKED_BEEF
+    slot: 12
+    items:
+      COOKED_BEEF: 20
+      COOKED_PORKCHOP: 20
+      COOKED_CHICKEN: 15
+      COOKED_MUTTON: 15
+      BREAD: 10
+      BAKED_POTATO: 10
+      PUMPKIN_PIE: 15
+      GOLDEN_CARROT: 40
+      GOLDEN_APPLE: 500
+      CAKE: 100
+
+  redstone:
+    name: "&cRedstone"
+    icon: REDSTONE_BLOCK
+    slot: 14
+    items:
+      REDSTONE: 10
+      REDSTONE_BLOCK: 90
+      REPEATER: 30
+      COMPARATOR: 40
+      OBSERVER: 40
+      PISTON: 50
+      STICKY_PISTON: 80
+      HOPPER: 120
+      DISPENSER: 70
+      DROPPER: 60
+      TNT: 100
+      LEVER: 5
+      REDSTONE_TORCH: 10
+      REDSTONE_LAMP: 40
+      SLIME_BLOCK: 100
+
+  blocks:
+    name: "&aBlocks"
+    icon: GRASS_BLOCK
+    slot: 16
+    items:
+      STONE: 4
+      COBBLESTONE: 2
+      DEEPSLATE: 4
+      STONE_BRICKS: 5
+      BRICKS: 8
+      OAK_LOG: 8
+      OAK_PLANKS: 3
+      GLASS: 6
+      SAND: 3
+      NETHERRACK: 2
+      END_STONE: 8
+      QUARTZ_BLOCK: 30
+      SEA_LANTERN: 40
+      WHITE_WOOL: 6
+      TERRACOTTA: 6

@@ -1,0 +1,82 @@
+# Colors use & codes.
+scoreboard:
+  title: "&b&lMY SMP"
+  # Placeholders: {money} {shards} {playtime} {player}
+  lines:
+    - ""
+    - "&a$ &fMoney: &a{money}"
+    - "&d✦ &fShards: &d{shards}"
+    - "&e⌚ &fPlaytime: &e{playtime}"
+    - ""
+    - "&7play.yourserver.net"
+
+shards:
+  seconds-per-shard: 600   # 1 shard every 10 minutes of playtime
+  amount: 1
+
+starting-balance: 0
+
+sell:
+  title: "&8Sell Items - drop items, close to sell"
+  # price PER ITEM
+  prices:
+    COBBLESTONE: 1
+    STONE: 2
+    DEEPSLATE: 2
+    DIRT: 0.5
+    SAND: 1
+    GRAVEL: 1
+    OAK_LOG: 5
+    SPRUCE_LOG: 5
+    BIRCH_LOG: 5
+    COAL: 8
+    RAW_IRON: 10
+    IRON_INGOT: 15
+    RAW_GOLD: 14
+    GOLD_INGOT: 20
+    COPPER_INGOT: 5
+    REDSTONE: 6
+    LAPIS_LAZULI: 8
+    QUARTZ: 10
+    DIAMOND: 100
+    EMERALD: 80
+    NETHERITE_SCRAP: 400
+    ANCIENT_DEBRIS: 500
+    NETHERITE_INGOT: 2500
+    WHEAT: 3
+    CARROT: 3
+    POTATO: 3
+    SUGAR_CANE: 3
+    PUMPKIN: 4
+    MELON_SLICE: 1
+    BONE: 4
+    STRING: 4
+    GUNPOWDER: 10
+    ENDER_PEARL: 30
+    BLAZE_ROD: 25
+    ROTTEN_FLESH: 1
+    SPIDER_EYE: 3
+
+shard-shop:
+  title: "&5Shard Shop"
+  size: 27
+  items:
+    helmet:
+      material: NETHERITE_HELMET
+      cost: 100
+      slot: 10
+    chestplate:
+      material: NETHERITE_CHESTPLATE
+      cost: 160
+      slot: 12
+    leggings:
+      material: NETHERITE_LEGGINGS
+      cost: 140
+      slot: 14
+    boots:
+      material: NETHERITE_BOOTS
+      cost: 80
+      slot: 16
+
+messages:
+  prefix: "&8[&bSMP&8] &7"
